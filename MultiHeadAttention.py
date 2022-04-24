@@ -1,4 +1,5 @@
 from main import *
+import tensorflow as tf
 
 class MultiHeadAttention(tf.keras.layers.Layer):
     def __init__(self, d_model, num_heads):
