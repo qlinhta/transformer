@@ -434,3 +434,5 @@ def translate(sentence, plot=''):
         plot_attention_weights(attention_weights, sentence, result, plot)
 
 
+'''translate("os meus vizinhos ouviram sobre esta ideia.")
+print ("Real translation: and my neighboring homes heard about this idea .")'''
